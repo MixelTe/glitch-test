@@ -1,0 +1,39 @@
+.root {
+
+}
+
+.title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 24px;
+}
+.te {
+	font-size: 40px;
+	color: darkmagenta;
+}
+.title > * {
+	margin-right: 10px;
+	color: darkmagenta;
+}
+.title a {
+	cursor: none;
+}
+
+.desc {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 1em;
+	color: darkmagenta;
+}
+
+.tech {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 1em;
+	color: blue;
+}

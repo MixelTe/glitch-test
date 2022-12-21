@@ -1,0 +1,20 @@
+.root {
+	background-color: chartreuse;
+	color: darkmagenta;
+	padding: 1em;
+}
+
+.root h2 {
+	font-size: 60px;
+}
+
+.root ul {
+	margin-top: -80px;
+	display: flex;
+	gap: -1em;
+}
+.t {
+	font-size: 60px;
+	color: darkmagenta;
+
+}

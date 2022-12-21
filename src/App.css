@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+body {
+  background-color: aquamarine;
+  cursor: none;
+}
+
+* {
+  font-family: "Comforter Brush", Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+[data-ac] {
+  cursor: none;
+}

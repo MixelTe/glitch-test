@@ -1,0 +1,8 @@
+.root {
+	height: 128px;
+	background: purple;
+	color: aquamarine;
+	padding: 48px 88px;
+	box-sizing: border-box;
+	font-size: 25px;
+}

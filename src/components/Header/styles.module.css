@@ -1,0 +1,53 @@
+.root {
+	height: 72px;
+	font-size: 25px;
+	background: purple;
+	color: aquamarine;
+	padding: 20px 88px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 20px;
+	left: 60px;
+	width: 100%;
+}
+
+.link, .active {
+	margin-right: 40px;
+	color: aquamarine;
+	text-decoration: none;
+	cursor: none;
+	font-size: 25px;
+}
+
+.active {
+	text-decoration: underline;
+	color: aquamarine;
+}
+
+
+.a1 {
+	position: fixed;
+	top: -1.4em;
+	left: 13em;
+	display: block;
+	padding: 3em;
+	width: 14em;
+	height: 1em;
+}
+.a2 {
+	position: fixed;
+	display: block;
+	top: 1.6em;
+	left: 17em;
+	transition: left;
+	transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	pointer-events: none;
+}
+.a1:hover ~ .a2 {
+	width: 8em;
+	height: 1em;
+	top: -1.4em;
+	left: calc(100% - 12em);
+	padding: 3em;
+}

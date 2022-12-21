@@ -1,0 +1,45 @@
+.root {
+	background-color: coral;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.root h2 {
+	font-size: 40px;
+	color: mediumblue;
+}
+.t {
+	font-size: 40px;
+	color: mediumblue;
+
+}
+
+.root ul {
+	display: flex;
+	gap: 1em;
+}
+
+.root img {
+	height: 500px;
+	filter: hue-rotate(50deg) sepia(0.4);
+	clip-path: polygon(29% 51%, 45% 73%, 54% 2%, 10% 0, 0 24%, 5% 77%, 19% 97%, 100% 100%, 98% 48%, 95% 29%, 99% 3%, 83% 7%, 68% 2%, 50% 3%, 37% 76%);
+}
+
+.root li {
+	font-size: 20px;
+	color: brown;
+}
+.d{
+	font-size: 20px;
+	color: brown;
+}
+
+.root h3 {
+	font-size: 30px;
+	color: gold;
+}
+.n {
+	font-size: 30px;
+	color: gold;
+}
