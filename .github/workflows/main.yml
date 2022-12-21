@@ -20,9 +20,8 @@ jobs:
         run: npm install
       - name: Buid
         run: npm run build
-      - name: Sync to Glitch Project
-        uses: kanadgupta/glitch-sync@v1.1
+
+      - name: Deploy Hook 📦
+        uses: JamesIves/fetch-api-data-action@v2
         with:
-          auth-token: '${{ secrets.authToken }}'
-          project-id: '${{ secrets.projectId }}'
-          path: 'build'
+          endpoint: '${{ secrets.deployHook }}'
