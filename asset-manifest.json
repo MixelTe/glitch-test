@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/renderer-test/static/css/main.ee2d70a2.css",
+    "main.js": "/renderer-test/static/js/main.3a9b53a5.js",
+    "static/media/avatar.jpg": "/renderer-test/static/media/avatar.99df075ad9d1f7aaab5e.jpg",
+    "static/media/Dark_gh-logo.svg": "/renderer-test/static/media/Dark_gh-logo.fd85aa3342e859109691c24c9310dadd.svg",
+    "static/media/Vector1.svg": "/renderer-test/static/media/Vector1.e1a50a6e3ac896b1c5c6ad5f4f66a28b.svg",
+    "static/media/TG-logo.svg": "/renderer-test/static/media/TG-logo.b6f4da0fb67425a9efba0481e0ae6ced.svg",
+    "static/media/Vector.svg": "/renderer-test/static/media/Vector.2dbbd2590b1379858d1b57d52c819a51.svg",
+    "index.html": "/renderer-test/index.html",
+    "main.ee2d70a2.css.map": "/renderer-test/static/css/main.ee2d70a2.css.map",
+    "main.3a9b53a5.js.map": "/renderer-test/static/js/main.3a9b53a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee2d70a2.css",
+    "static/js/main.3a9b53a5.js"
+  ]
+}
