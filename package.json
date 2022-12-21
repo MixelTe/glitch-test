@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "buildWatch": "cd src && tsc --watch",
     "startWatch": "cd build && node --watch server.js -dev",
-    "build": "cd src && tsc",
+    "build": "cd src && tsc && cd ..",
     "startDEV": "cd build && node server.js -dev",
     "startDEVDelay": "cd build && node server.js -dev -delay",
     "start": "cd build && node server.js"
