@@ -36,6 +36,6 @@ export default function MapBlock()
 				</ul>
 			</li>
 		</ul>
-		<img data-ac src={"https://web-site-qjo5.onrender.com/image/avatar_5.png"} alt="Map" />
+		<img data-ac src={"https://web-site-qjo5.onrender.com/image?id=avatar_5.png"} alt="Map" />
 	</div>
 }
