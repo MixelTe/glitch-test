@@ -19,11 +19,9 @@ jobs:
     - name: Build
       run: npm run build --if-present
     - name: Deploy with gh-pages
-      run: |
-        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: build
 
   deploy:
     runs-on: ubuntu-latest
@@ -48,7 +46,7 @@ jobs:
           new_branch: server-build
           push: 'origin server-build --force'
 
-      - name: Deploy Hook
+      - name: Deploy Hook 📦 🚚
         uses: JamesIves/fetch-api-data-action@v2
         with:
           endpoint: '${{ secrets.deployHook }}'
