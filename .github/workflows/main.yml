@@ -20,13 +20,9 @@ jobs:
         run: npm install
       - name: Buid
         run: npm run build
-      - name: Test
-        run: ls
       - name: Sync to Glitch Project
-        uses: kanadgupta/glitch-sync@main
+        uses: kanadgupta/glitch-sync@v2.0.0
         with:
           auth-token: '${{ secrets.authToken }}'
           project-id: '${{ secrets.projectId }}'
-
-      - name: Test
-        run: ls
+          path: 'build'
