@@ -42,7 +42,7 @@ jobs:
         env:
           REPO: self
           BRANCH: server-build
-          FOLDER: server/build
+          FOLDER: server
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy Hook 📦 🚚
