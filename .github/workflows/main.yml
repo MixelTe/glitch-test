@@ -1,13 +1,12 @@
-name: Glitch Sync
+name: Deploy to render.com 
 
-# Glitch Project: https://glitch.com/edit/#!/github-action
 on:
   push:
     branches:
       - main
 
 jobs:
-  sync:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -20,8 +19,14 @@ jobs:
         run: npm install
       - name: Buid
         run: npm run build
-
-      - name: Deploy Hook 📦
-        uses: JamesIves/fetch-api-data-action@v2
+        
+      - uses: EndBug/add-and-commit@v9
         with:
-          endpoint: '${{ secrets.deployHook }}'
+          remove: '* -r'
+          add: 'src'
+          author_name: Deploy Actions
+          author_email: ''
+          message: 'Build new version'
+          new_branch: actions-build
+
+
