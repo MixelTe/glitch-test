@@ -28,8 +28,6 @@ jobs:
           author_email: ''
           message: 'Build new version'
           new_branch: actions-build
+          push: 'origin actions-build --force'
 
-      - name: Deploy Hook 📦
-        uses: JamesIves/fetch-api-data-action@v2
-        with:
-          endpoint: '${{ secrets.deployHook }}'
+
