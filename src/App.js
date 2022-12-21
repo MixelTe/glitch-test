@@ -8,7 +8,7 @@ import StartAnim from './anim';
 
 function App()
 {
-	return <BrowserRouter basename={'/ya-project'}>
+	return <BrowserRouter basename={'/renderer-test'}>
 		<Layout>
 			<Routes>
 				<Route index path='/' element={<MainPage />} />
