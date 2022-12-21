@@ -9,8 +9,8 @@ export default function Card({ name })
 	return <div className={styles.root}>
 		<div className={styles.title} ref={coolAnim()}>
 			<span data-t className={styles.te} ref={coolAnim()}>{name}</span>
-			<a className={styles.te} href="" ref={coolAnim()}><img data-ac src={icon1} alt="tg" /></a>
-			<a className={styles.te} href="" ref={coolAnim()}><img data-ac src={icon} alt="gh" /></a>
+			<img className={styles.te} data-ac src={icon1} alt="tg" ref={coolAnim()} />
+			<img className={styles.te} data-ac src={icon} alt="gh" ref={coolAnim()} />
 		</div>
 		<div data-t className={styles.desc} ref={coolAnim()}>Рассказ о себе. Lorem ipsum dolor amet consectetur. Duis sed velit libero urna vivamus sem sit. Ut consequat tempus enim ac ullamcorper.</div>
 		<div data-t data-ac className={styles.tech} ref={coolAnim()}>HTML, CSS, JavaScript, React</div>

@@ -123,7 +123,7 @@ function pr()
 		const p = [];
 		for (let j = 0; j < t.length; j++)
 		{
-			if (ch.innerText.toLowerCase() == t[j].toLowerCase())
+			if (ch.innerText.toLowerCase() === t[j].toLowerCase())
 				p.push(j);
 		}
 		let X = 0;
@@ -140,7 +140,7 @@ function pr()
 			Y = Math.sin(i / 15) * (150 + 100 * (i / 100) / (2 * Math.PI)) + (h - 100) / 2;
 			X = Math.cos(i / 15) * (150 + 100 * (i / 100) / (2 * Math.PI)) + (w - 100) / 2;
 		}
-		const rect = ch.getBoundingClientRect();
+
 		ch.style.transition = "left, top";
 		ch.style.zIndex = "100000";
 		ch.style.transitionDuration = "500ms";

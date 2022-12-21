@@ -47,8 +47,8 @@ jobs:
           author_name: 'Deploy Actions'
           author_email: ''
           message: 'Build new version'
-          new_branch: actions-build
-          push: 'origin actions-build --force'
+          new_branch: server-build
+          push: 'origin server-build --force'
 
       - name: Deploy Hook
         uses: JamesIves/fetch-api-data-action@v2

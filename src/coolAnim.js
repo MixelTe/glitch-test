@@ -7,7 +7,7 @@ export default function coolAnim(el)
 	{
 		if (!o.current) return;
 		if (o.current.getAttribute("data-da")) return;
-		if (o.current.parentElement.id != "coolAnim")
+		if (o.current.parentElement.id !== "coolAnim")
 		{
 			const el = o.current.cloneNode(true);
 			const el2 = o.current.cloneNode(true);

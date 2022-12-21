@@ -1,6 +1,5 @@
 import React from "react"
 import styles from "./styles.module.css"
-import map from "./map.png"
 import coolAnim from "../../coolAnim"
 
 export default function MapBlock()
