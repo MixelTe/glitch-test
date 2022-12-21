@@ -12,6 +12,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.x'
+      - name: Install Dependencies
+        run: npm install
       - name: Buid
         run: npm run build
       - name: Sync to Glitch Project
