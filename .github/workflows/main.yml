@@ -1,4 +1,4 @@
-name: Deploy to render.com
+name: Deploy
 
 on:
   push:
