@@ -28,3 +28,5 @@ jobs:
           auth-token: '${{ secrets.authToken }}'
           project-id: '${{ secrets.projectId }}'
           path: 'build'
+      - name: Test
+        run: ls
